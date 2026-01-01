@@ -1,34 +1,27 @@
-# ============================================
-# AI Task Assistant - Python Dependencies
-# By OkayYouGotMe
-# ============================================
+# AI Task Assistant - Dependencies
+# Compatible with Python 3.11+
 
 # Core Framework
-python-telegram-bot==20.7      # Telegram bot interface
-anthropic==0.39.0               # Claude AI integration
+python-telegram-bot==20.7
+anthropic==0.39.0
 
-# Database
-sqlalchemy==2.0.23              # ORM for database operations
-psycopg2-binary==2.9.9          # PostgreSQL adapter
-alembic==1.13.0                 # Database migrations
+# Database  
+sqlalchemy==2.0.35
+psycopg2-binary==2.9.10
+alembic==1.14.0
 
 # Scheduling
-apscheduler==3.10.4             # Task scheduling (reminders, assessments)
-pytz==2024.1                    # Timezone support
+apscheduler==3.10.4
+pytz==2024.2
 
 # External APIs
-requests==2.31.0                # HTTP requests
-httpx==0.25.2                   # Async HTTP (for Claude API)
+requests==2.32.3
+httpx==0.25.2
 
 # Data Processing
-python-dateutil==2.8.2          # Date/time parsing
-python-dotenv==1.0.0            # Environment variables
+python-dateutil==2.9.0
+python-dotenv==1.0.1
 
-# Utilities
-pydantic==2.5.2                 # Data validation
-colorama==0.4.6                 # Colored terminal output (for logs)
-
-# Optional (for weather/news features)
-# Uncomment if using these features:
-# openweathermap==0.1.1         # Weather API
-# newsapi-python==0.2.7         # News API
+# Utilities - UPDATED FOR PYTHON 3.11+
+pydantic==2.10.6
+colorama==0.4.6
